@@ -8,7 +8,6 @@ import OurStory from "../../components/about/OurStory";
 import OurSteps from "../../components/about/OurSteps";
 import TeamSection from "../../components/about/TeamSection";
 import FaqSection from "../../components/about/FaqSection";
-import BannerCta from "../../components/about/BannerCta";
 import Footer from "../../components/common/Footer";
 
 export default function About() {
@@ -27,7 +26,6 @@ export default function About() {
         <OurSteps />
         <TeamSection />
         <FaqSection />
-        <BannerCta />
         <Footer />
       </div>
     </main>

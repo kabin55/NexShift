@@ -138,9 +138,9 @@
 >
 > Display animated counters.
 >
-> * 150+ Projects Completed
-> * 50+ Happy Clients
-> * 5M+ Audience Reached
+> * 50+ Projects Completed
+> * 20+ Happy Clients
+> * 10K+ Audience Reached
 > * 8+ Years Experience
 >
 > ---

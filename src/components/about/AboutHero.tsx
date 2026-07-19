@@ -86,8 +86,7 @@ export default function AboutHero() {
         {/* Bottom Side: Text */}
         <div className="w-full flex flex-col items-center space-y-6 mt-16">
           <p className="text-zinc-300 text-lg md:text-xl leading-relaxed max-w-2xl">
-            We are a creative collective of visual storytellers, directors, and photographers. We build cinematic campaigns that stand out, ensuring your brand&apos;s narrative is captured authentically.
-          </p>
+NexShift Media & Events is a creative and strategic agency based in Nepal. We specialize in digital marketing, event management, and visual production for corporate clients, startups, banks, and institutions.          </p>
         </div>
 
       </div>

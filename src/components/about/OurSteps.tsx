@@ -7,34 +7,34 @@ import { Lightbulb, Map, Zap, LineChart } from "lucide-react";
 const steps = [
   {
     num: "01",
-    title: "Concept",
-    desc: "We start by understanding your brand, your goals, and who you're trying to reach.",
-    tags: ["Brand Strategy", "Audience Persona", "Market Fit"],
-    metric: "100% Alignment",
+    title: "Strategy",
+    desc: "Deep research and data-driven planning to define clear objectives and target audiences.",
+    tags: ["Brand Alignment", "Market Positioning", "Objective Mapping"],
+    metric: "Brand Alignment",
     icon: <Lightbulb className="w-6 h-6 text-amber-500 drop-shadow-[0_0_12px_rgba(245,158,11,0.9)]" />
   },
   {
     num: "02",
-    title: "Planning",
-    desc: "We build a strategic roadmap, mapping out timelines, budgets, and key performance indicators.",
-    tags: ["Resource Allocation", "Agile Roadmap", "KPI Setting"],
-    metric: "On-Time Delivery",
+    title: "Creativity",
+    desc: "Bold ideas and innovative concepts that differentiate your brand from the competition.",
+    tags: ["Differentiating Concepts", "Engaging Content", "Storytelling"],
+    metric: "Brand Resonance",
     icon: <Map className="w-6 h-6 text-amber-500 drop-shadow-[0_0_12px_rgba(245,158,11,0.9)]" />
   },
   {
     num: "03",
     title: "Execution",
-    desc: "We bring the plan to life with precise implementation and real-time coordination.",
-    tags: ["Agile Sprints", "Quality Assurance", "Live Tracking"],
-    metric: "Zero Bottlenecks",
+    desc: "Flawless implementation with attention to every detail — on time, on budget, on brand.",
+    tags: ["Flawless Implementation", "Budget Adherence", "On-Time Delivery"],
+    metric: "On-Time & On-Budget",
     icon: <Zap className="w-6 h-6 text-amber-500 drop-shadow-[0_0_12px_rgba(245,158,11,0.9)]" />
   },
   {
     num: "04",
-    title: "Coverage",
-    desc: "We wrap up with full documentation, detailed reporting, and ongoing optimization.",
-    tags: ["Data Analytics", "Performance Tuning", "Client Handoff"],
-    metric: "Maximized ROI",
+    title: "Results",
+    desc: "Measurable outcomes with transparent reporting and continuous optimization.",
+    tags: ["Measurable Growth", "Transparent Reporting", "Future Scaling"],
+    metric: "Measurable Impact",
     icon: <LineChart className="w-6 h-6 text-amber-500 drop-shadow-[0_0_12px_rgba(245,158,11,0.9)]" />
   }
 ];

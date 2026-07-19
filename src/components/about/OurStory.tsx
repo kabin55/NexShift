@@ -55,27 +55,27 @@ export default function OurStory() {
             <p className="text-white text-xl font-medium leading-relaxed">
               Born from a passion for creativity and strategic excellence, NexShift was founded with a clear vision: to bridge the gap between powerful storytelling and measurable business results.
             </p>
-            <p>
-              What started as a small team with big ambitions has grown into one of Nepal&apos;s most trusted creative agencies. We&apos;ve successfully managed 150+ projects, partnered with 50+ organizations, and helped brands reach audiences of over 5 million people.
+            <p className="text-white text-xl font-medium leading-relaxed">
+              What started as a small team with big ambitions has grown into one of Nepal&apos;s most trusted creative agencies. We&apos;ve successfully managed 50+ projects, partnered with 20+ organizations, and helped brands reach audiences of over thousands of people.
             </p>
-            <p>
+            <p className="text-white text-xl font-medium leading-relaxed">
               Today, we proudly serve corporate enterprises, ambitious startups, banking institutions, educational organizations, NGOs, and government bodies—always maintaining the same commitment to quality, creativity, and measurable impact.
             </p>
           </motion.div>
 
           <div className="pt-12 grid grid-cols-1 sm:grid-cols-3 gap-12 w-full text-center sm:text-left mt-12 border-t border-white/10">
             <div>
-              <AnimatedNumber value={150} suffix="+" />
+              <AnimatedNumber value={50} suffix="+" />
               <span className="text-zinc-500 text-xs uppercase tracking-widest mt-2 block">Projects Completed</span>
             </div>
 
             <div>
-              <AnimatedNumber value={50} suffix="+" />
+              <AnimatedNumber value={20} suffix="+" />
               <span className="text-zinc-500 text-xs uppercase tracking-widest mt-2 block">Happy Clients</span>
             </div>
 
             <div>
-              <AnimatedNumber value={5} suffix="M+" />
+              <AnimatedNumber value={10} suffix="K+" />
               <span className="text-zinc-500 text-xs uppercase tracking-widest mt-2 block">Audience Reached</span>
             </div>
           </div>

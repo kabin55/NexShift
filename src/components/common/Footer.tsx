@@ -31,17 +31,16 @@ export default function Footer() {
 
         <div className="flex gap-16">
           <div className="space-y-4">
-            <h5 className="text-white text-xs uppercase tracking-widest font-semibold">Info</h5>
-            <ul className="space-y-2 text-zinc-500 text-sm font-light">
+            <h3 className="text-white text-[20px] uppercase tracking-widest font-semibold">Info</h3>
+            <ul className="space-y-2 text-zinc-500 text-[20px] font-light">
               <li><Link href="/" className="hover:text-white transition">Home</Link></li>
               <li><Link href="/about" className="hover:text-white transition">About</Link></li>
               <li><Link href="/services" className="hover:text-white transition">Services</Link></li>
-              <li><Link href="/works" className="hover:text-white transition">Works</Link></li>
             </ul>
           </div>
           <div className="space-y-4">
-            <h5 className="text-white text-xs uppercase tracking-widest font-semibold">Contact</h5>
-            <ul className="space-y-2 text-zinc-500 text-sm font-light">
+            <h3 className="text-white text-[20px] uppercase tracking-widest font-semibold">Contact</h3>
+            <ul className="space-y-2 text-zinc-500 text-[20px] font-light">
               <li>Kathmandu, Nepal</li>
               <li>info@nexshift.com</li>
               <li>+977 1 2345678</li>
