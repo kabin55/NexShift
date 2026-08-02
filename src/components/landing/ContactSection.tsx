@@ -23,13 +23,13 @@ export default function ContactSection() {
       {/* Background Image Container */}
       <div className="absolute inset-0 z-0 flex justify-end">
         <div className="relative w-full md:w-[70%] h-full">
-          <Image
+          {/* <Image
             src="/bg-image.png"
             alt="Contact Background"
             fill
             sizes="100vw"
             className="object-cover opacity-60"
-          />
+          /> */}
           {/* Horizontal Gradient: fades more gently toward the right side */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#FAFAFA] from-20% via-[#FAFAFA]/60 to-transparent" />
 
@@ -115,6 +115,7 @@ export default function ContactSection() {
             {/* Right Side: Map */}
             <div className="w-full min-h-[350px] sm:min-h-[400px] h-full bg-gray-100 rounded-2xl overflow-hidden border border-gray-200 shadow-inner relative">
               <iframe
+                title="Google Maps Location"
                 src="https://maps.google.com/maps?q=27.6856276,85.3377242&t=&z=16&ie=UTF8&iwloc=&output=embed"
                 className="absolute inset-0 w-full h-full"
                 style={{ border: 0 }}
